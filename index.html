@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Thomas Bowen's Portfolio page</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="row header">
+                <div class="col-xs-6">
+                  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMSAzMSI+CiAgPHBhdGggaWQ9Im1hcmsiIGZpbGw9IiMwMkIzRTQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI5LDAuMSBMMjAsNC44IEwyMCw0LjggTDIwLDE5LjcgQzIwLDIwLjMgMjAsMjEgMTkuOCwyMS42IEMxOS43LDIyLjIgMTkuNSwyMi44IDE5LjMsMjMuMyBDMTkuMiwyMy40IDE5LjIsMjMuNiAxOS4xLDIzLjcgQzE4LjgsMjMuNyAxNi42LDIzIDE1LjYsMjIuMyBDMTUuMiwyMiAxNC44LDIxLjcgMTQuNCwyMS4zIEMxNCwyMC45IDEzLjcsMjAuNSAxMy40LDIwLjEgQzEzLjEsMTkuNyAxMi44LDE5LjIgMTIuNiwxOC43IEMxMi40LDE4LjIgMTIuMiwxNy43IDEyLjEsMTcuMSBDMTIsMTYuNiAxMiwxNiAxMiwxNS41IEwxMiwxLjIgTDEwLDAgTDAsNS45IEwwLDE5LjYgQzAsMjUuOSA1LjEsMzEgMTEuMywzMSBDMTMuNCwzMSAxNS4zLDMwLjUgMTcsMjkuNSBMMjUuNCwyNC43IEMyOC43LDIzIDMxLDE5LjUgMzEsMTUuNiBMMzEsMS4zIEwyOSwwLjEgTDI5LDAuMSBaIE0xNy45LDI2LjIgQzE3LDI3LjEgMTYuMywyNy42IDE1LjMsMjguMSBDMTQuNywyOC4zIDE0LDI4LjYgMTMuNCwyOC44IEMxMi44LDI4LjkgMTIuMiwyOSAxMS42LDI5IEMxMSwyOSAxMCwyOC45IDkuNCwyOC44IEM4LjgsMjguNyA4LjIsMjguNSA3LjcsMjguMyBDNy4yLDI4LjEgNi42LDI3LjggNi4xLDI3LjQgQzQuOCwyNi41IDQuMiwyNS43IDMuNiwyNC45IEMzLjMsMjQuNCAzLDIzLjkgMi43LDIzLjMgQzIuNSwyMi43IDIuMywyMi4yIDIuMiwyMS42IEMyLDIwLjkgMiwyMC4yIDIsMTkuNiBMMiw3LjEgTDEwLDIuNCBMMTAsMTUuNSBMMTAsMTUuNSBDMTAsMjAuNSAxMy43LDI0LjYgMTguNCwyNS42IEMxOC4yLDI1LjggMTguMSwyNiAxNy45LDI2LjIgTDE3LjksMjYuMiBaIE0yOC45LDE3LjIgQzI4LjgsMTcuNyAyOC42LDE4LjIgMjguNCwxOC43IEMyOC4yLDE5LjIgMjcuOCwxOS45IDI3LjQsMjAuNCBDMjYuOCwyMS4xIDI2LjIsMjEuNiAyNC43LDIyLjUgQzIzLjQsMjMuMiAyMi4zLDIzLjQgMjEuNiwyMy42IEMyMi4xLDIyLjQgMjIuMSwyMS4xIDIyLjEsMTkuNyBMMjIsNiBMMjksMi4zIEwyOSwxNS42IEMyOSwxNi4xIDI5LDE2LjcgMjguOSwxNy4yIEwyOC45LDE3LjIgWiIvPgo8L3N2Zz4K" width="150" class="logo" alt="Udacity logo" >
+                </div>
+                <div class="col-xs-6">
+                   <h1 class="title-name">Thomas Bowen</h1>
+                    <h3 class="title-profession">Full Stack Developer</h3>
+                </div>
+            </div>
+        </header>
+
+        <section class="centerpiece">
+            <div class="row">
+                <div class="col-md-12">
+                <img class="img-responsive center-block centerpiece-image" src="img/centerpiece.jpg" alt="Main image!!" >
+                </div>
+            </div>
+        </section>
+
+        <section class="work">
+            <div class="row container center-block">
+                <div class="col-md-12 work-title">
+                    <h2>Featured Work</h2>
+                </div>
+
+                <div class="row portfolio-projects">
+                    <!-- Div area trigger modal -->
+                    <div class="col-md-4 project"  data-toggle="modal" data-target="#myModal-1">
+                        <img class="img-responsive center-block work-image" src="img/portfolio_1.png"  alt="Portfolio 1">
+                        <h3 class="text-center">Appify</h3>
+                        <p class="text-center">www.something.biz</p>
+                    </div>
+
+                    <div class="col-md-4 project" data-toggle="modal" data-target="#myModal-2">
+                        <img class="img-responsive center-block work-image" src="img/portfolio_2.png"  alt="Portfolio 2">
+                        <h3 class="text-center">Sunflower</h3>
+                        <p class="text-center">www.lolscat.com</p>
+                    </div>
+                    <div class="col-md-4 project"  data-toggle="modal" data-target="#myModal-3">
+                        <img class="img-responsive center-block work-image" src="img/portfolio_3.png"  alt="Portfolio 2">
+                        <h3 class="text-center">Bokeh</h3>
+                        <p class="text-center">www.urabish.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="contact">
+            <div class="row footer center-block">
+                <p class="text-center col-md-12">I will provide a streamlined, efficient hand to your project. Contact me at tjbowen.52 @ gmail.com or file an inquiry here</p>
+            </div>
+        </footer>
+        <!-- Modal for Project 1 -->
+        <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel-1">Mind-blowing Project 1</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/modal/modal_1.JPG" class="modal-pic img-responsive" alt="picture of portfolio content" width="200">
+                        <div class="modal-text">
+                        <h2> This is my incredible project 1</h2>
+                        <br>
+                        <p>Pretty soon, this text here will have actual words on it that describe an incredibly impressive internet application, and I'll get hired to an incredible company yo. Curabitur sit amet ligula tristique, iaculis felis mattis, egestas dui. Ut imperdiet, nisi ac dictum eleifend, mi sem ornare metus, dictum convallis arcu ipsum nec nisl. Nam ac ligula id est auctor eleifend. Sed efficitur felis vel aliquet dictum. Phasellus eu consequat risus. Duis consequat, nisl nec sodales sodales, purus ante dapibus dui, non gravida arcu sapien quis arcu. Nunc pharetra quis eros eleifend maximus. Cras consectetur blandit dui, id tincidunt magna. Donec dui massa, mollis ut volutpat et, ultrices vitae dolor. Nam eget accumsan magna. Nullam rutrum erat enim.
+                        <br>
+                        <br>
+                        Pellentesque luctus et lectus id porta. Suspendisse sagittis ornare mi, ac venenatis mi pulvinar in. Vivamus hendrerit massa nec egestas dictum. Proin laoreet libero sit amet bibendum elementum. Donec aliquam pharetra ligula, in venenatis sapien suscipit eu. Sed luctus libero sit amet lacus venenatis scelerisque. Vestibulum vel sapien eu ex elementum porttitor mollis vitae metus. Fusce vel purus malesuada, volutpat dui feugiat, fringilla metus. Fusce in sollicitudin est. Cras vestibulum arcu nisi, ut vestibulum sapien accumsan nec. Nam sit amet quam tempus, varius massa scelerisque, egestas quam.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Project 2 -->
+        <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel-2">Staggeringly genius project 2</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/modal/modal_2.JPG" class="modal-pic" alt="picture of portfolio content 2" width="200">
+                        <div class="modal-text">
+                        <h2> This is my incredible project 2 </h2>
+                        <br>
+                        <p>Pellentesque luctus et lectus id porta. Suspendisse sagittis ornare mi, ac venenatis mi pulvinar in. Vivamus hendrerit massa nec egestas dictum. Proin laoreet libero sit amet bibendum elementum. Donec aliquam pharetra ligula, in venenatis sapien suscipit eu. Sed luctus libero sit amet lacus venenatis scelerisque. Vestibulum vel sapien eu ex elementum porttitor mollis vitae metus. Fusce vel purus malesuada, volutpat dui feugiat, fringilla metus. Fusce in sollicitudin est. Cras vestibulum arcu nisi, ut vestibulum sapien accumsan nec. Nam sit amet quam tempus, varius massa scelerisque, egestas quam.
+                        <br>
+                        <br>
+                        Sed vitae est in mauris imperdiet vulputate. In scelerisque fermentum nibh, ut gravida nulla tempus eget. Pellentesque nibh nunc, venenatis eget augue sed, vestibulum fringilla elit. Suspendisse orci elit, ullamcorper et feugiat vitae, pellentesque sed lectus. Ut non odio sapien. Phasellus pellentesque nisl erat, id sollicitudin magna cursus id. Quisque ultrices malesuada quam id imperdiet. Nulla orci mauris, fringilla ac magna id, blandit imperdiet erat. Sed eu ultricies metus. Vestibulum sit amet ex purus. Sed magna lectus, hendrerit et nulla et, commodo iaculis lacus. Aenean vulputate metus id risus ultricies, eget molestie ante rhoncus. Aliquam maximus mi et ullamcorper euismod.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Project 3 -->
+        <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-3">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel-3">Phantasmagoric Perihelion Project 3 </h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/modal/modal_3.JPG" class="modal-pic" alt="picture of portfolio content 3" width="200">
+                        <div class="modal-text">
+                         <h2> This is my incredible project 3 </h2> <br>
+                        <p>
+                        Pellentesque luctus et lectus id porta. Suspendisse sagittis ornare mi, ac venenatis mi pulvinar in. Vivamus hendrerit massa nec egestas dictum. Proin laoreet libero sit amet bibendum elementum. Donec aliquam pharetra ligula, in venenatis sapien suscipit eu. Sed luctus libero sit amet lacus venenatis scelerisque. Vestibulum vel sapien eu ex elementum porttitor mollis vitae metus. Fusce vel purus malesuada, volutpat dui feugiat, fringilla metus. Fusce in sollicitudin est. Cras vestibulum arcu nisi, ut vestibulum sapien accumsan nec. Nam sit amet quam tempus, varius massa scelerisque, egestas quam.
+                        <br>
+                        <br>
+                        Sed vitae est in mauris imperdiet vulputate. In scelerisque fermentum nibh, ut gravida nulla tempus eget. Pellentesque nibh nunc, venenatis eget augue sed, vestibulum fringilla elit. Suspendisse orci elit, ullamcorper et feugiat vitae, pellentesque sed lectus. Ut non odio sapien. Phasellus pellentesque nisl erat, id sollicitudin magna cursus id. Quisque ultrices malesuada quam id imperdiet. Nulla orci mauris, fringilla ac magna id, blandit imperdiet erat. Sed eu ultricies metus. Vestibulum sit amet ex purus. Sed magna lectus, hendrerit et nulla et, commodo iaculis lacus. Aenean vulputate metus id risus ultricies, eget molestie ante rhoncus. Aliquam maximus mi et ullamcorper euismod.</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

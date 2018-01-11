@@ -1,0 +1,154 @@
+/* CSS by Thomas Bowen for Udacity FSND */
+
+/* Global */
+
+body {
+    background-color: #e2e2e2;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/* Header */
+
+.header {
+    margin: 12px 0;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 100%;
+
+        margin: 30px 15px 15px 5px !important;
+
+        max-width: 100px;
+    }
+}
+
+.logo {
+    margin: 15px;
+}
+
+.title-name {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 5em;
+}
+
+.title-profession {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 3em;
+}
+
+@media screen and (max-width: 991px) {
+    .title-name {
+        font-size: 2em;
+    }
+
+    .title-profession {
+        font-size: 1.3em;
+    }
+}
+
+/* Centerpiece Image section */
+
+.centerpiece-image {
+    margin: 15px 0 15px 0;
+
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 992px){
+
+    .centerpiece-image {
+        max-width: 1150px;
+
+        margin: auto;
+    }
+}
+
+/* Featured Work section */
+
+.portfolio-projects {
+    margin: 18px 0 40px 0;
+}
+
+@media screen and (max-width: 991px) and (min-width: 500px) {
+
+    .portfolio-projects {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .work-image {
+        width: 150px;
+    }
+}
+
+.work-title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Modal for Project 1 section */
+.project {
+    cursor: pointer;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition: all 0.3s ease;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.project:hover,
+.project:focus,
+.project.focus {
+    background-color: #cfcfcf;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 800px !important;
+    }
+}
+
+.modal-content {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    }
+
+
+.modal-pic {
+    margin: 0 15px 5px 0;
+    float: left;
+}
+
+@media (max-width: 650px) {
+    .modal-content {
+        margin: 0 10px 0 10px;
+        width: auto;
+    }
+}
+
+@media (max-width: 415px) {
+    .modal-text h2 {
+        display: inline-flex;
+    }
+}
+
+
+/* Footer section */
+
+.footer {
+    height: auto;
+    bottom: 0;
+    background-color: white;
+}
